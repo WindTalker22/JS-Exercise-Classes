@@ -183,6 +183,18 @@ class Student extends Lambdasian{
     this.className = attributes.className;
     this.favSubjects = attributes.favSubjects;
   }
+
+  listSubjects(){
+    return `${this.favSubjects}`
+  }
+
+  PRAssignment(subject){
+    return `${this.name} has submitted a PR for ${subject}`
+  }
+
+  sprintChallenge(subject){
+    return `${this.name} has begun srint challenge on ${subject}`
+  }
 }
 
 /*
